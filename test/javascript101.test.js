@@ -1,4 +1,4 @@
-const computeAverageScore = require('../src/javascript101')
+const { computeAverageScore, checkStatus } = require('../src/javascript101')
 
 const students = [
             { name: "Alice", score: 85 },
