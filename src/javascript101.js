@@ -27,3 +27,5 @@ function checkStatus(student) {
     
 }
 
+module.exports = { computeAverageScore, checkStatus }
+
