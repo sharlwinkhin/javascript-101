@@ -14,7 +14,7 @@ const students = [
             { name: "Charlie", score: 42 }
         ]
 
-function computeAverageScore() {
+function computeAverageScore(students) {
     let result = 0
     // add your code here
 
@@ -26,8 +26,4 @@ function checkStatus(student) {
 
     
 }
-
-computeAverageScore()
-checkStatus(students[1])
-checkStatus(students[2])
 
